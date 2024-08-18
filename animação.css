@@ -1,0 +1,24 @@
+/* Estilo base da caixa */
+.box{
+  width: 100px; height: 100px;
+  background-color: #3498db ; position: relative;
+  animation-name: moxeBox; /* nome da animação */
+  animation-duration: 5s; /* duração da animação */
+  animation-timing-function: ease-in-out; /* função de tempo da animação */ 
+  animation-iteration-count: infinite; /* quantidade de vezes que a animação se repete */}
+
+  @keyframes moxeBox{
+    0% {left: 0;}
+   50%   {left: 200px; background-color: #00fa9a;}
+    100%{left:0; backgroud-color: #BDB76B;}
+  }
+
+  
+ 
+  
+  
+
+
+  
+    
+
